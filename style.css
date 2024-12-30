@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: #000000;
+    align-items: center;
+}
+
+@keyframes toggleColors {
+    0% {
+      color: yellow;
+    }
+    50% {
+      color: black;
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  
+  /* Aplica a animação ao h1 */
+  .color-toggle {
+    animation: toggleColors 1s infinite;
+  }
+
+  footer {
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
